@@ -1,0 +1,140 @@
+a {
+  color: seashell;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0 20px;
+}
+
+div,
+nav {
+  /*border: 1px solid white;*/
+}
+
+h2,
+h4 {
+  margin: 15px 0;
+}
+
+/* Header section */
+header {
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.header-logo,
+.header-nav {
+  align-items: center;
+  display: flex;
+}
+
+.header-logo {
+  padding-left: 10px;
+}
+
+.header-logo img {
+  height: 50px;
+}
+
+.header-nav {
+  padding-right: 10px;
+}
+
+.header-nav span {
+  padding: 0 10px;
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  padding-top: 69px;
+}
+
+#mission,
+#locations {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  max-width: 1200px;
+  height: 700px;
+  flex-direction: row;
+}
+
+.section-text {
+  flex-basis: 100%;
+  background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea-containers {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tea-container img {
+  height: 200px;
+  width: 300px;
+}
+/* Main -- Locations section */
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.location-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.location-item {
+  background-color: black;
+  flex-basis: 300px;
+  opacity: 1;
+  margin: 0px 20px;
+}
+
+.location-items h2 {
+
+}
+
+/* Footer section */
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+}
